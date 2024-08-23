@@ -1,0 +1,327 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.postimg.cc/8knwmN0m/Dise-o-sin-t-tulo-8.png');
+    background-size: cover;  /* Hace que la imagen de fondo cubra completamente el Ã¡rea */
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.header {
+    background-color: #3e6bab73;
+    padding: 20px;
+}
+
+
+.sidebar {
+    width: 250px;
+    float: left;
+    background-color: #163859;
+    height: 100vh;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow-y: auto;
+}
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 6px;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #163859;
+    color: #fff;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #112538;
+    color: #fff;
+}
+
+
+.sidebar ul li {
+    border-bottom: none;
+}
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.dark-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-btn:hover {
+    background-color: #555;
+}
+
+
+.header h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+
+.header p {
+    margin: 10px 0;
+    color: #fff;
+}
+
+
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+#misCursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.curso {
+    background-color: #444;
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    width: 250px; 
+    border-radius: 8px;
+}
+
+
+
+.content {
+    margin-left: 0px;
+    padding: 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.dark-btn {
+    background-color: #122133;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-btn:hover {
+    background-color: #09131f;
+}
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #1e3d6ba8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #8395af;
+    border-radius: 5px;
+    background-color: #20304ba8;
+    color: #fff;
+}
+
+button {
+    background-color: #0b192b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+button:hover {
+    background-color: #081320;
+}
+
+button:focus {
+    outline: none;
+    border-color: #fff;
+}
+
+.file-upload-button{
+    background-color: #0b192b;
+}
+
+textarea{
+    background-color: #273d5da8;
+    color: #fff;
+    width: calc(33.33% - 20px); /* 33.33% para tres cursos por fila con espacio entre ellos */
+    border-radius: 8px;
+}
+
+
+
+input:focus,
+button:focus {
+    outline: none;
+    border-color: #fff;
+}
+
+
+.dark-btn:hover {
+    background-color:  #091422;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+   
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1a2435;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #3d3d3d;
+}
+
+.content {
+    position: relative;
+}
+
+.download-btn {
+    position: absolute;
+    top: 20px;
+    right: 1px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #555;
+}
+
+.action-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.action-btn:hover {
+    background-color: #555;
+}
+
+
+
+
+        form {
+            background-color: #304e7ba8;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+
+       
+
+        input:focus,
+        button:focus {
+            outline: none;
+            border-color: #fff;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+       
+
+        .modal-content {
+   
+    background-color: #1b2c49;
+
+}
+
+        tbody tr:hover {
+            background-color: #1b2c49;
+        }
+
+
+        .tabla_ {
+            padding: 20px;
+            background-color: #223755a8;
+            border-radius: 8px;
+            width: 100%;
+            
+        }
+
+        input[readonly] {
+            background-color: #f0f0f0;
+        }
+    

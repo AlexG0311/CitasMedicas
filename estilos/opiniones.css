@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #292929;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2%; 
+    background-color: #1E1E1E;
+}
+
+.header {
+    background-color: #111;
+    padding: 10px 2%; 
+    text-align: center;
+}
+
+.boton-iniciar-sesion {
+    background-color: #535353;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.boton-registrar {
+    background-color: #5253a3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.logo {
+    order: 0;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav {
+    order: 1;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #A9A9A9;
+}
+
+/* Estilos más minimalistas e interactivos para la sección de servicios */
+#servicios {
+    padding: 50px;
+    max-width: 800px; /* Ancho máximo para el contenido */
+    margin: 0 auto; /* Centrar horizontalmente */
+    text-align: center; /* Alinear contenido al centro */
+}
+
+#servicios h1 {
+    color: #fff;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+#servicios p {
+    color: #ccc;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.servicios-lista {
+    margin-bottom: 20px;
+}
+
+.servicios-lista ul {
+    list-style-type: none;
+    color: #e5e5e5; /* Color de texto secundario */
+    margin: 0;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    background-color: #11111157;
+    border-radius: 15px;
+    margin-left: 190px;
+}
+
+.contenedortex{
+    width: 500px;
+    margin-left: 160px;
+}
+
+.servicios-lista ul li {
+    margin-bottom: 10px;
+    transition: color 0.3s; /* Transición suave del color del texto */
+}
+
+.servicios-lista ul li:hover {
+    color: #fff; /* Cambiar color del texto al pasar el mouse */
+}
+
+#servicios button {
+    background-color: #5253a3;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+#servicios button:hover {
+    background-color: #414184; /* Cambiar color de fondo al pasar el mouse */
+}
+
+

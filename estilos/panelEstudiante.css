@@ -1,0 +1,165 @@
+.header {
+    background-color: #3e6bab73;
+    padding: 20px;
+}
+
+h1{
+    font-size: 25px;
+    margin-left: 66px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.postimg.cc/8knwmN0m/Dise-o-sin-t-tulo-8.png');
+    background-size: cover;  /* Hace que la imagen de fondo cubra completamente el Ã¡rea */
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#misCursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.curso {
+    background-color: #444;
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    width: 250px; 
+    border-radius: 8px;
+}
+
+.sidebar {
+    width: 250px;
+    float: left;
+    background-color: #163859;
+    height: 100vh;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow-y: auto;
+}
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 6px;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #163859;
+    color: #fff;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #112538;
+    color: #fff;
+}
+
+
+.sidebar ul li {
+    border-bottom: none;
+}
+
+
+.content {
+    margin-left: 260px;
+    padding: 20px;
+   
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.dark-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-btn:hover {
+    background-color: #555;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    float:inline-start;
+}
+
+th, td {
+    border: 1px solid #838282;
+    padding: 12px;
+    font-size: 14px;
+    background-color: #1e3d6ba8;
+}
+
+th {
+    background-color: #1a2435;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #12223d91;
+}
+
+button {
+    background-color: #0b192b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+button:hover {
+    background-color: #0b192b;
+}
+
+button:focus {
+    outline: none;
+    border-color: #fff;
+}
+
+.header h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+
+.header p {
+    margin: 10px 0;
+    color: #fff;
+}
+
+form{
+    width: 1000px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+}
